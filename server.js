@@ -13,7 +13,6 @@ import express from "express";
 const app = express();
 app.use(express.json());
 app.use("/api/auth", authRoutes);
-6;
 app.use("/api/home", homeRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/image", imageRoutes);
